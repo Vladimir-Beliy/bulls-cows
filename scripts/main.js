@@ -1,5 +1,7 @@
 'use strict';
 
+alert('Hello!');
+
 startGame();
 
 function startGame() {

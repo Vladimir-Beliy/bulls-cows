@@ -15,11 +15,10 @@ function startGame() {
 function game() {
   const guessedNumber = randomNumber();
 
-  const startStr = 'Please enter 4 digits number:';
   let countStr = '';
 
   while (true) {
-    const userNumber = prompt(countStr + startStr);
+    const userNumber = prompt(countStr + 'Please enter 4 digits number:');
     const countObj = bullsAndCows(guessedNumber, userNumber);
 
     if (userNumber === null) {
